@@ -1,0 +1,229 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		466D0A9D171D12B900B83091 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 466D0A9C171D12B900B83091 /* main.cpp */; };
+		466D0A9F171D12B900B83091 /* test_openGL.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 466D0A9E171D12B900B83091 /* test_openGL.1 */; };
+		466D0AA6171D12DA00B83091 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466D0AA5171D12DA00B83091 /* GLUT.framework */; };
+		466D0AA8171D12E300B83091 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466D0AA7171D12E300B83091 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		466D0A97171D12B900B83091 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				466D0A9F171D12B900B83091 /* test_openGL.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		466D0A99171D12B900B83091 /* test_openGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test_openGL; sourceTree = BUILT_PRODUCTS_DIR; };
+		466D0A9C171D12B900B83091 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		466D0A9E171D12B900B83091 /* test_openGL.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = test_openGL.1; sourceTree = "<group>"; };
+		466D0AA5171D12DA00B83091 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		466D0AA7171D12E300B83091 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		466D0A96171D12B900B83091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466D0AA8171D12E300B83091 /* OpenGL.framework in Frameworks */,
+				466D0AA6171D12DA00B83091 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		466D0A90171D12B900B83091 = {
+			isa = PBXGroup;
+			children = (
+				466D0AA7171D12E300B83091 /* OpenGL.framework */,
+				466D0AA5171D12DA00B83091 /* GLUT.framework */,
+				466D0A9B171D12B900B83091 /* test_openGL */,
+				466D0A9A171D12B900B83091 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		466D0A9A171D12B900B83091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466D0A99171D12B900B83091 /* test_openGL */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		466D0A9B171D12B900B83091 /* test_openGL */ = {
+			isa = PBXGroup;
+			children = (
+				466D0A9C171D12B900B83091 /* main.cpp */,
+				466D0A9E171D12B900B83091 /* test_openGL.1 */,
+			);
+			path = test_openGL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		466D0A98171D12B900B83091 /* test_openGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466D0AA2171D12B900B83091 /* Build configuration list for PBXNativeTarget "test_openGL" */;
+			buildPhases = (
+				466D0A95171D12B900B83091 /* Sources */,
+				466D0A96171D12B900B83091 /* Frameworks */,
+				466D0A97171D12B900B83091 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test_openGL;
+			productName = test_openGL;
+			productReference = 466D0A99171D12B900B83091 /* test_openGL */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		466D0A91171D12B900B83091 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "User iMac";
+			};
+			buildConfigurationList = 466D0A94171D12B900B83091 /* Build configuration list for PBXProject "test_openGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 466D0A90171D12B900B83091;
+			productRefGroup = 466D0A9A171D12B900B83091 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				466D0A98171D12B900B83091 /* test_openGL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466D0A95171D12B900B83091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466D0A9D171D12B900B83091 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		466D0AA0171D12B900B83091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		466D0AA1171D12B900B83091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		466D0AA3171D12B900B83091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		466D0AA4171D12B900B83091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		466D0A94171D12B900B83091 /* Build configuration list for PBXProject "test_openGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466D0AA0171D12B900B83091 /* Debug */,
+				466D0AA1171D12B900B83091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466D0AA2171D12B900B83091 /* Build configuration list for PBXNativeTarget "test_openGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466D0AA3171D12B900B83091 /* Debug */,
+				466D0AA4171D12B900B83091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 466D0A91171D12B900B83091 /* Project object */;
+}
